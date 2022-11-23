@@ -1,0 +1,13 @@
+body{
+    min-height: 60vh;
+    text-align: center;
+    background-color: aqua;
+}
+.form{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}

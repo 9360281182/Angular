@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>DATE&TIME</h3>
+    {{out | date:'dd MMM yyyy'}}<br>
+    <p>
+        {{first | date:'hh:mm:ss'}}
+    </p>
+    <h3>TEXT CONVERT</h3>
+    <input type="text" [(ngModel)]="in">
+    <p>UpperCase: {{in | uppercase }}</p>
+    <p>LowerCase: {{in | lowercase}}</p>
+
+
+    
+</body>
+</html>

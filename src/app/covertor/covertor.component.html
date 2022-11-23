@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CurrencyConvertor</h1>
+    <div class="content">
+    <input type="number" placeholder="" [(ngModel)]="in1">
+    <select class="sel" [(ngModel)]="inr">
+        <option>INR</option>
+        <OPtion selected >USD</OPtion>
+    </select>
+    <input type="number" placeholder="" [(ngModel)]="out">
+    <select class="sel" [(ngModel)]="usd">
+        <option selected>INR</option>
+        <OPtion>USD</OPtion>
+    </select>
+    </div>
+    <div class="coc">
+    <button class="btn" (click)="evaluate()">convert</button>
+    </div>
+</body>
+</html>

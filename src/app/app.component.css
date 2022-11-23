@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.full{
+    display: flex;
+    justify-content: right;
+ 
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+}
